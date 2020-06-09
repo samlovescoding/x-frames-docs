@@ -2,7 +2,16 @@
 
   - [Installation](installation.md)
   - [Quick Guide](quick-guide.md)
+  - [CLI](cli.md)
 
+- Digging Deeper
+
+  - [Routes](routes.md)
+  - [Controllers](controllers.md)
+
+
+
+<!-- 
 - Database
 
   - [Query Builder](query-builder.md)
@@ -23,4 +32,4 @@
   - [Container](container.md)
   - [Route Injections](route-injections.md)
   - [Session](session.md)
-  - [Validation](validation.md)
+  - [Validation](validation.md) -->
