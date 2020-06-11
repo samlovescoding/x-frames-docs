@@ -136,13 +136,13 @@ class ArticleController{
     
     public function index(){
 
-        view("articles/index");
+        return view("articles/index");
 
     }
 
     public function create(){
 
-        view("articles/create");
+        return view("articles/create");
 
     }
 
@@ -154,7 +154,7 @@ class ArticleController{
 
     public function edit(){
 
-        view("articles/edit");
+        return view("articles/edit");
 
     }
 
@@ -288,7 +288,7 @@ function.
 
         $articles = (new Article)->all();
 
-        view("articles/index", compact("articles"));
+        return view("articles/index", compact("articles"));
 
     }
 
@@ -387,7 +387,7 @@ And the edit and update function in **App\Controllers\ArticleController.php**
 ```php
     public function edit(Article $article){
 
-        view("articles/edit", compact("article"));
+        return view("articles/edit", compact("article"));
 
     }
 
@@ -416,7 +416,7 @@ with Route Model Injection. Add the view function to our controller.
 ```php
     public function view(Article $article){
 
-        view("articles/view", compact("article"));
+        return view("articles/view", compact("article"));
 
     }
 ```

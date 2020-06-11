@@ -8,6 +8,9 @@
 
   - [Routes](routes.md)
   - [Controllers](controllers.md)
+  - [Views](views.md)
+  - [Templating](templating.md)
+  - [Models](models.md)
 
 
 

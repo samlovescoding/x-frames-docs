@@ -86,7 +86,36 @@ controller functions.
 
     This method will delete an existing model.
 
-### Controller Method Parameters
+### Controller Parameters
 
-Parameters of controller methods can be used get data from route or
-instantiate classes.
+Parameters of controller methods can be used get data from route (see route >
+route parameters) or inject classes. X-Framework comes with an elegant 
+dependency injection container. The example shows class injection.
+
+```php
+namespace App\Controllers;
+
+use XFrames\Utility\{ Request, Session };
+
+class ArticleController{
+
+    public function index(Request $request, Session $session){
+
+        dd($request);
+
+    }
+
+}
+```
+
+### Controller Rendering
+
+You can return any object of interface type XFrames\Blueprints\Renderable 
+from a controller method. The object will be automatically rendered on
+to webpage. This is especially useful for building custom classes to 
+handle responses like in APIs, you can have custom Transformer Classes
+that can render data into JSON or XML as required. The rendering is
+handled by Kernel.
+
+Views implement XFrames\Blueprints\Renderable and hence can be returned 
+to render themselves.
