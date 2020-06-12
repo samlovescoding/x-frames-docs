@@ -60,3 +60,9 @@ While Loop
     <?= $i++ ?>
 <?php endwhile; ?>
 ```
+
+## Want more
+
+Here are a few articles on templating with PHP.
+
+- https://www.joeldare.com/wiki/php:using_php_as_a_template_engine
