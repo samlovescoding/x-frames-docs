@@ -13,6 +13,8 @@
   - [Models](models.md)
   - [Validation](validation.md)
   - [Session](session.md)
+  - [Authentication](authentication.md)
+  - [File Systems](filesystem.md)
 
 
 
