@@ -12,6 +12,7 @@
   - [Templating](templating.md)
   - [Models](models.md)
   - [Validation](validation.md)
+  - [Session](session.md)
 
 
 

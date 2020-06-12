@@ -23,8 +23,6 @@ class ProductController{
 ```php
 namespace App\Controllers;
 
-use XFrames\Utility\Request;
-
 class ProductController{
 
     public function index(){
@@ -36,7 +34,6 @@ class ProductController{
 ```
 
 ## Request Methods
-
 
 #### Getting Data
 
