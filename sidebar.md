@@ -15,6 +15,8 @@
   - [Session](session.md)
   - [Authentication](authentication.md)
   - [File Systems](filesystem.md)
+  - [Caching](caching.md)
+  - [Optimization](optimization.md)
 
 
 
