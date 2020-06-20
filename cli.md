@@ -44,3 +44,8 @@ event can call multiple listeners.
 It creates an model policy in App/Policies directory.
 Policies authorize Users on how they can manipulate a
 model.
+
+- **Unit Tests**
+
+Finally, PHPUnit is official unit testing library, and
+you can finally write unit tests.
