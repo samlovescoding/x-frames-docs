@@ -232,3 +232,15 @@ is_image()
 ```php
 has_extension($extension)
 ```
+
+# File Uploading
+
+You can use request for file uploads. 
+Lets understand it with code.
+
+```php
+if(request()->hasFile("image")){
+    $image = request()->file("image");
+    $image->store("uploads");
+}
+```

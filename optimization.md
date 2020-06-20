@@ -1,7 +1,5 @@
 # Optimizing Application
 
-Although
-
 ## Router
 
 Using action method is very expensive. But that can be fixed by defining most used routes
