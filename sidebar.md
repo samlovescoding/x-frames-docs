@@ -19,6 +19,8 @@
   - [Optimization](optimization.md)
   - [Testing](testing.md)
 
+- Advanced
+  - [Blueprints](blueprints.md)
 
 
 <!-- 
